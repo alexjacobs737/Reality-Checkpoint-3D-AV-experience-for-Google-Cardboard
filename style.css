@@ -1,0 +1,79 @@
+body {
+  background-color: #000000;
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#extra {
+  position: fixed;
+  width: 100%;
+  color: #ffffff;
+  padding: 5px;
+  font-family: Monospace;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+  bottom: 3px;
+}
+
+#extra a {
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 2px 5px;
+}
+
+#controller {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  z-index: 2;
+}
+
+#footer {font-size: 8px; width: 100%; color: #fff; margin: 2em auto; text-align: left; position: absolute; bottom: 0 }
+/*//VR log*/
+#controllertype {
+  background-color: #ccc;
+  color: #000;
+  border: 1px solid #999;
+}
+
+#calibrate-compass-popup .figure8 {
+  font-family: Verdana;
+  font-size: 120px;
+  margin: -50px 0 -30px 0;
+  padding:	0;
+  text-align: center;
+}
+
+/* Simple popup style */
+
+.popup {
+  position: absolute;
+  width: 340px;
+  height: 180px;
+  left: 50%;
+  top: 50%;
+  margin: -130px 0 0 -190px;
+  visibility: hidden;
+  /*opacity: 0;*/
+  z-index: 3;
+  padding: 20px;
+
+  background: white;
+  box-shadow: 0px 0px 20px rgba( 0, 0, 0, 0.6 );
+  border-radius: 3px;
+}
+
+.popup button {
+  border: 0px;
+  padding: 8px 10px;
+  margin: 5px 0px;
+  border-radius: 1px;
+
+  cursor: pointer;
+  color: #fff;
+  background: #333;
+  font-size: 15px;
+}

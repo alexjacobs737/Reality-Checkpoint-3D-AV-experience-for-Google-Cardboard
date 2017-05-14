@@ -1,0 +1,84 @@
+if (xOsc<1.2) {
+  oscFreq = 103.8;
+}
+if (xOsc>1.2 && xOsc<1.4) {
+  oscFreq = 116.5;
+}
+if (xOsc>1.4 && xOsc<1.6) {
+  oscFreq = 138.5;
+}
+if (xOsc>1.6 && xOsc<1.8) {
+  oscFreq = 155.5;
+}
+if (xOsc>1.8 && xOsc<2) {
+  oscFreq = 164.8;
+}
+if (xOsc>2 && xOsc<2.2) {
+  oscFreq = 184.9;
+}
+if (xOsc>2.2 && xOsc<2.4) {
+  oscFreq = 207.6;
+}
+if (xOsc>2.4 && xOsc<2.6) {
+  oscFreq = 233;
+}
+if (xOsc>2.6 && xOsc<2.8) {
+  oscFreq = 246.9;
+}
+if (xOsc>2.8 && xOsc<3) {
+  oscFreq = 277.1;
+}
+if (xOsc>3 && xOsc<3.2) {
+  oscFreq = 311.1;
+}
+if (xOsc>3.2 && xOsc<3.4) {
+  oscFreq = 349.2;
+}
+if (xOsc>3.4 && xOsc<3.6) {
+  oscFreq = 369.9;
+}
+if (xOsc>3.6 && xOsc<3.8) {
+  oscFreq = 415.3;
+}
+if (xOsc>3.8 && xOsc<4) {
+  oscFreq = 466.1;
+}
+if (xOsc>4 && xOsc<4.2) {
+  oscFreq = 493.8;
+}
+if (xOsc>4.2 && xOsc<4.4) {
+  oscFreq = 493.8;
+}
+if (xOsc>4.4 && xOsc<4.6) {
+  oscFreq = 554.3;
+}
+if (xOsc>4.6 && xOsc<4.8) {
+  oscFreq = 622.2;
+}
+if (xOsc>4.8 && xOsc<5) {
+  oscFreq = 739.9;
+}
+if (xOsc>5 && xOsc<5.2) {
+  oscFreq = 830;
+}
+if (xOsc>5.2 && xOsc<5.4) {
+  oscFreq = 932.3;
+}
+if (xOsc>5.4 && xOsc<5.6) {
+  oscFreq = 987.7;
+}
+if (xOsc>5.6 && xOsc<5.8) {
+  oscFreq = 1108.73;
+}
+if (xOsc>5.8 && xOsc<6) {
+  oscFreq = 1244.51;
+}
+if (xOsc>6 && xOsc<6.2) {
+  oscFreq = 1318.51;
+}
+if (xOsc>6.2 && xOsc<6.4) {
+  oscFreq = 1479.98;
+}
+if (xOsc>6.2 && xOsc<6.4) {
+  oscFreq = 1661.22;
+}
